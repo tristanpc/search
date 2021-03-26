@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+
+        <link rel="stylesheet" href="searchstyles.css">
+    </head>
+    <body>
+        <a href="images.html">Image Search</a>
+        <a href="advanced.html">Advanced Search</a><br/>
+        <div id="containslogo">
+            <center><img src="googlelogo_color_272x92dp.png" id="img1" alt="Google Logo"></center>
+        </div>
+        <form action="https://www.google.co.uk/search" id="formmain" method="GET">
+            <input type="hidden" name="source" value="hp">
+            <div id="searchtextdiv"><input type="text" name="q" id="searchtext"></div>
+            <div id="buttondiv">
+            <center><input type="submit" value="Google Search" id="searchbutton" name="foo">
+            <input type="submit" value="I'm Feeling Lucky" name="btnI" id="searchbutton"></center>
+            </div>
+            <input type="hidden" name="iflsig" value="AINFCbYAAAAAYAgo9R4PjFY9NfS1Phxj8T6TArrX8Buc">
+        </form>
+    </body>
+</html>
